@@ -29,8 +29,8 @@ public class HrApplication {
         repository.save(new Applicant("Ozan", "Doğan", 43, "Male", "Z University", "Ankara, Gölbaşı", "Completed", "Spring Certificate", "English", "Java"));
 
         userRepository.deleteAll();
-        userRepository.save(new User(1L, "arda", "1234"));
-        userRepository.save(new User(2L, "user", "1234"));
+        userRepository.save(new User(1L, "arda", "$2a$08$.suL5XqpeUpyukmN/y/eLe/pRs2tiYlm4N99vUihTfGyQN3.fvw5S"));
+        userRepository.save(new User(2L, "user", "$2a$08$.suL5XqpeUpyukmN/y/eLe/pRs2tiYlm4N99vUihTfGyQN3.fvw5S"));
     }
 
 }
