@@ -30,7 +30,7 @@ public class HrApplication {
 
         userRepository.deleteAll();
         userRepository.save(new User(1L, "arda", "$2a$08$.suL5XqpeUpyukmN/y/eLe/pRs2tiYlm4N99vUihTfGyQN3.fvw5S"));
-        userRepository.save(new User(2L, "user", "$2a$08$.suL5XqpeUpyukmN/y/eLe/pRs2tiYlm4N99vUihTfGyQN3.fvw5S"));
+        userRepository.save(new User(2L, "user", "$2a$08$.suL5XqpeUpyukmN/y/eLe/pRs2tiYlm4N99vUihTfGyQN3.fvw5S")); //password is -> 1234
     }
 
 }
